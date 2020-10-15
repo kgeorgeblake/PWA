@@ -1,0 +1,51 @@
+body {
+  font-size: 140%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button, input {
+  font-size: 120%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  width: 200%;
+}
+
+td, th {
+  border: 1px solid #2c1919;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.error {
+  color: #2c1999;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1025px;
+  text-align: center;
+}
+
+.total {
+  font-size: 150%;
+  text-decoration: forestgreen;
+}
+
+.form {
+  margin-top: 20px;
+  width: 200%;
+}
+
+.transactions {
+  text-align: auto;
+  max-height: 300px;
+  overflow: auto;
+  width: 90%;
+  margin: 0 auto;
+}
