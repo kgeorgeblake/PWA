@@ -1,19 +1,19 @@
 body {
-  font-size: 140%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 120%;
+  font-family: Arial;
 }
 
 button, input {
-  font-size: 120%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  font-family: Arial;
 }
 
 table {
-  width: 200%;
+  width: 100%;
 }
 
 td, th {
-  border: 1px solid #2c1919;
+  border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
@@ -23,27 +23,27 @@ tr:nth-child(even) {
 }
 
 .error {
-  color: #2c1999;
+  color: red;
 }
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1025px;
+  max-width: 825px;
   text-align: center;
 }
 
 .total {
   font-size: 150%;
-  text-decoration: forestgreen;
+  text-decoration: underline;
 }
 
 .form {
-  margin-top: 20px;
-  width: 200%;
+  margin-top: 25px;
+  width: 100%;
 }
 
 .transactions {
-  text-align: auto;
+  text-align: left;
   max-height: 300px;
   overflow: auto;
   width: 90%;
